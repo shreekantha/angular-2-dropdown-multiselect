@@ -85,7 +85,7 @@ private myTexts: IMultiSelectTexts = {
 ```
 
 ```html
-<ss-multiselect-dropdown [options]="mySettings" [texts]="myTexts" [settings]="mySettings" [(ngModel)]="selectedOptions"></ss-multiselect-dropdown>
+<ss-multiselect-dropdown [options]="myOptions" [texts]="myTexts" [settings]="mySettings" [(ngModel)]="selectedOptions"></ss-multiselect-dropdown>
 ```
 
 ## Developing
